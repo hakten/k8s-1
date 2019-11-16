@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: task-c
+  labels:
+    run: task-c
+spec:
+  containers:
+  - image: nginx
+    name: nginx
+  - image: redis 
+    name: redis
+  - image: memcached
+    name: memcahed
+  - image: consul
+    name: consul
