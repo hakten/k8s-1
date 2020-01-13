@@ -15,6 +15,6 @@ spec:
             args:
             - /bin/sh
             - -c
-            - uname
+            - /cron.txt
           restartPolicy: OnFailure
 
