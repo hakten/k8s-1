@@ -1,17 +1,16 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: task-c
+  name: mem
   labels:
-    run: task-c
+    run: mem
 spec:
   containers:
   - image: nginx
     name: nginx
-  - image: redis 
+  - image: hakten/redis 
     name: redis
-  - image: memcached
+  - image: hakten/memcached
     name: memcahed
-  - image: consul
-    name: consul
+
     

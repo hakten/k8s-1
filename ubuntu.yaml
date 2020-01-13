@@ -2,9 +2,9 @@ apiVersion: v1
 kind: Pod
 metadata:
   namespace: test
-  name: task-f
+  name: ubuntu
   labels:
-    app: task-f
+    app: ubuntu
 spec:
   containers:
   - image: ubuntu
